@@ -2,13 +2,13 @@
 1. First install Homebrew using the instructions on Home-brew website https://brew.sh/
 2. Then install Node.js by executing the following in a Terminal window:
     brew install node
-3. Next install watchman using brew, a file watcher from Facebook
+3. Next install watchman using brew, a file watcher from Facebook:
     brew install watchman
     watchman is used by React Native to figure out when our code changes and rebuild accordingly. 
-4. Next use npm to install the React Native Command Line Interface (CLI) tool.
+4. Next use npm to install the React Native Command Line Interface (CLI) tool:
     npm install -g react-native-cli
     npm uses Node Package Manager to fetch the CLI tool and install it globally, similar to CocoaPods.
-5. Now navigate to folder where we would like to develop our app
+5. Now navigate to folder where we would like to develop our app:
     react-native init <ProjectName>
     e.g.
     react-native init myFirstReactNativeApp
